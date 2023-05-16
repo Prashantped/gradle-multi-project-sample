@@ -1,2 +1,4 @@
 @Library("test-library") _
-sh 'mimicPipeline(app: 'app', base: 'base', common: 'common')'
+script{
+mimicPipeline(app: 'app', base: 'base', common: 'common')
+}
